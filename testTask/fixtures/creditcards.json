@@ -1,0 +1,531 @@
+[
+{
+    "model": "creditCards.creditcard",
+    "pk": 4149312061016573,
+    "fields": {
+        "cardSeries": 2,
+        "issueDate": "2022-07-13T17:32:16.627Z",
+        "cardExpirationDate": "2022-07-13T16:54:46.544Z",
+        "CVVCode": "721",
+        "cardAmount": 0,
+        "status": "ov",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4355224364561225,
+    "fields": {
+        "cardSeries": 12,
+        "issueDate": "2022-07-13T16:54:46.624Z",
+        "cardExpirationDate": "2022-08-12T00:00:00Z",
+        "CVVCode": "964",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4366397107500685,
+    "fields": {
+        "cardSeries": 1,
+        "issueDate": "2022-07-13T17:32:10.278Z",
+        "cardExpirationDate": "2023-01-09T00:00:00Z",
+        "CVVCode": "150",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4376652122916446,
+    "fields": {
+        "cardSeries": 12,
+        "issueDate": "2022-07-13T16:54:46.459Z",
+        "cardExpirationDate": "2022-08-12T00:00:00Z",
+        "CVVCode": "381",
+        "cardAmount": 0,
+        "status": "in",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4423323042946766,
+    "fields": {
+        "cardSeries": 2,
+        "issueDate": "2022-07-13T17:32:16.532Z",
+        "cardExpirationDate": "2023-07-13T00:00:00Z",
+        "CVVCode": "290",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4520353778799723,
+    "fields": {
+        "cardSeries": 1,
+        "issueDate": "2022-07-13T17:32:10.106Z",
+        "cardExpirationDate": "2023-01-09T00:00:00Z",
+        "CVVCode": "328",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4554708142439011,
+    "fields": {
+        "cardSeries": 2,
+        "issueDate": "2022-07-13T17:32:16.445Z",
+        "cardExpirationDate": "2023-07-13T00:00:00Z",
+        "CVVCode": "614",
+        "cardAmount": 0,
+        "status": "in",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4647476758715431,
+    "fields": {
+        "cardSeries": 12,
+        "issueDate": "2022-07-13T16:54:46.083Z",
+        "cardExpirationDate": "2022-08-12T00:00:00Z",
+        "CVVCode": "727",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4829285656612170,
+    "fields": {
+        "cardSeries": 2,
+        "issueDate": "2022-07-13T17:32:16.706Z",
+        "cardExpirationDate": "2023-07-13T00:00:00Z",
+        "CVVCode": "856",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "creditCards.creditcard",
+    "pk": 4923074811461231,
+    "fields": {
+        "cardSeries": 2,
+        "issueDate": "2022-07-13T17:32:16.340Z",
+        "cardExpirationDate": "2023-07-13T00:00:00Z",
+        "CVVCode": "677",
+        "cardAmount": 0,
+        "status": "ac",
+        "history": "{\"history\": []}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-07-12T16:09:05.567Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "1",
+        "object_repr": "CreditCard object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-07-13T11:33:57.067Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "11",
+        "object_repr": "CreditCard object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-07-13T11:35:12.091Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "1",
+        "object_repr": "CreditCard object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0435\\u0440\\u0456\\u044f \\u043a\\u0430\\u0440\\u0442\\u043a\\u0438\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-07-13T11:35:21.901Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "CreditCard object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0435\\u0440\\u0456\\u044f \\u043a\\u0430\\u0440\\u0442\\u043a\\u0438\", \"\\u041d\\u043e\\u043c\\u0435\\u0440 \\u043a\\u0430\\u0440\\u0442\\u043a\\u0438\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-07-13T11:35:28.860Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "11",
+        "object_repr": "CreditCard object (11)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add credit card",
+        "content_type": 1,
+        "codename": "add_creditcard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change credit card",
+        "content_type": 1,
+        "codename": "change_creditcard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete credit card",
+        "content_type": 1,
+        "codename": "delete_creditcard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view credit card",
+        "content_type": 1,
+        "codename": "view_creditcard"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 2,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 2,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 2,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 2,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 3,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 3,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 3,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 3,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 4,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 4,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 4,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 4,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 5,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 5,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 5,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 5,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 6,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 6,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 6,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 6,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 7,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 7,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 7,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 7,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$hlioyrrEyC4UU6DoGI5nju$CIsliaBUoCdwWrZjDIXfmDw7XzBMFAvrsgnXEi7cMSA=",
+        "last_login": "2022-07-12T15:47:32.201Z",
+        "is_superuser": true,
+        "username": "denys",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-07-12T15:47:21.926Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "creditCards",
+        "model": "creditcard"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "64gm4uftbpqxkg76vn7n1uh6uj8dbytd",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAGClKX7nsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnERIE6_W0R6pLoDvmO9NUmtrssc5a7Ig3Y5NU7P6-H-HRTs5VufrUOKpHmMCT1wHlUGYlREHizoyNF49jxYB3pg7TNZ5YyGBEmzQfH-AArDOHc:1oBI6m:MANtIODQ6suK4mxmoZm_pM251SEXPK4KGbwWJTx2XGc",
+        "expire_date": "2022-07-26T15:47:32.290Z"
+    }
+}
+]

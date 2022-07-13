@@ -1,0 +1,23 @@
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-radius: 12px;
+    margin: 15px;
+}
+tr, td{
+    border: 1px solid black;
+    padding: 15px;
+    
+    border-radius: 12px;
+}
+form{
+    margin: 15px;
+}
+
+.negativeAmount{
+    color:red;
+}
+
+.positiveAmount{
+    color: green;
+}

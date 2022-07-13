@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'css/index.css' %} ">
+    <title>Main page</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                Серія картки
+            </td>
+            <td>
+                Номер картки
+            </td>
+            <td>
+                Дата випуску
+            </td>
+            <td>
+                Термін дії 
+            </td>
+            <td>
+                Статус
+            </td>
+            <td>
+                Сума
+            </td>
+        </tr>
+        <tr>
+            <td>
+                {{card.cardSeries}}
+            </td>
+            <td>
+                {{card.cardNumber}}
+            </td>
+            <td>
+                {{card.issueDate}}
+            </td>
+            <td>
+               {{card.cardExpirationDate}}
+            </td>
+            <td>
+                {{card.get_status_display}}
+            </td>
+            <td>
+                {{card.cardAmount}}
+            </td>
+        </tr>
+    </table>
+    <table>
+        {% for transaction in history %}
+        <tr>
+            <td>
+                <p class="{% if transaction.amount < 0 %}negativeAmount{% else %}positiveAmount {% endif %}">
+                    {{transaction.amount}}
+                </p>
+            </td>
+            <td>
+                <p>
+                    {{transaction.date}}
+                </p>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <!-- <form action="addTransaction/" method="POST">
+        {% csrf_token %}
+        <input type="number" name='amount' required>
+        <input type="hidden" name="cardNumber" value="{{card.cardNumber}}">
+        <button type="submit">Додати</button>
+    </form> -->
+</body>
+</html>

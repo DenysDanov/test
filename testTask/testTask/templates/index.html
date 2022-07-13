@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'css/index.css' %} ">
+    <title>Main page</title>
+</head>
+<body>
+    <form action="/">
+        <input type="search" name="q">
+        <button type="submit">🔍</button>
+    </form>
+
+    <table>
+        <tr>
+            <td>
+                Серія картки
+            </td>
+            <td>
+                Номер картки
+            </td>
+            <td>
+                Дата випуску
+            </td>
+            <td>
+                Термін дії 
+            </td>
+            <td>
+                Статус
+            </td>
+            <td>
+                Змінити статус
+            </td>
+            <td>
+                Видалити
+            </td>
+        </tr>
+        {% for card in cards %}
+        <tr>
+            <td>
+                {{card.cardSeries}}
+            </td>
+            <td>
+                <a href="history?cardNumber={{card.cardNumber}}">{{card.cardNumber}}</a>
+            </td>
+            <td>
+                {{card.issueDate}}
+            </td>
+            <td>
+               {{card.cardExpirationDate}}
+            </td>
+            <td>
+                {{card.get_status_display}}
+            </td>
+            <td>
+                {% if card.status == 'ac' %}
+                <a href="deactivate/?cardNumber={{card.cardNumber}}">
+                    <button>
+                        Deactivate
+                    </button>
+                </a> 
+                {% elif card.status == 'ov' %}
+                ❌
+                {% else %}
+                <a href="activate/?cardNumber={{card.cardNumber}}">
+                    <button>
+                        Activate
+                    </button>
+                </a> 
+                {% endif %}
+                
+            </td>
+            <td>
+                <a href="delete/?cardNumber={{card.cardNumber}}">
+                    <button>
+                        Delete
+                    </button>
+                </a> 
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <form action="generate/" method="post">
+        {% csrf_token %}
+        <label for="amount">Кількість карт</label>
+        <input type="number" name='amount' required>
+        <label for="amount">Серія</label>
+        <input type="number" name='series' required>
+        
+        <label for="amount">Термін закінчиться через: </label>
+        <select name="expTime">
+            <option value="30">1 місяць</option>
+            <option value="180">6 місяців</option>
+            <option value="365">1 рік</option>
+        </select>
+        <button type="submit">Генерувати</button>
+    </form>
+</body>
+</html>
